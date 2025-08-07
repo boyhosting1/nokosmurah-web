@@ -8,50 +8,41 @@
 <body>
   <header>
     <h1>Nokos Murah</h1>
-    <nav>
-      <ul>
-        <li><a href="#produk">Produk</a></li>
-        <li><a href="#cara-beli">Cara Beli</a></li>
-        <li><a href="#kontak">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>  <section id="hero">
-    <h2>Beli Nomor Virtual (NOKOS) dengan Harga Termurah!</h2>
-    <p>Melayani pembelian nomor virtual untuk verifikasi berbagai platform seperti WhatsApp, Telegram, Google, dan lainnya.</p>
-    <a href="#produk" class="btn">Lihat Produk</a>
-  </section>  <section id="produk">
-    <h2>Produk Kami</h2>
-    <div class="produk-list">
-      <div class="produk">
-        <h3>Nomor WhatsApp</h3>
-        <p>Harga: Rp3.000 / nomor</p>
-        <button>Beli Sekarang</button>
-      </div>
-      <div class="produk">
-        <h3>Nomor Telegram</h3>
-        <p>Harga: Rp2.500 / nomor</p>
-        <button>Beli Sekarang</button>
-      </div>
-      <div class="produk">
-        <h3>Nomor Google</h3>
-        <p>Harga: Rp4.000 / nomor</p>
-        <button>Beli Sekarang</button>
-      </div>
-    </div>
-  </section>  <section id="cara-beli">
-    <h2>Cara Pembelian</h2>
-    <ol>
-      <li>Hubungi admin via WhatsApp/Telegram</li>
-      <li>Pilih jenis nomor yang diinginkan</li>
-      <li>Lakukan pembayaran</li>
-      <li>Nomor dikirim dalam hitungan menit</li>
-    </ol>
-  </section>  <section id="kontak">
-    <h2>Kontak Kami</h2>
-    <p>WhatsApp: <a href="https://wa.me/6281234567890">+62 812-3456-7890</a></p>
-    <p>Telegram: <a href="https://t.me/nokosmurahid">@nokosmurahid</a></p>
+    <p>Nomor Virtual OTP Harga Terjangkau</p>
+  </header>  <section id="produk">
+    <h2>Produk Nomor Virtual</h2>
+    <div class="produk-list"><div class="produk">
+    <img src="https://img.icons8.com/color/96/000000/whatsapp--v1.png" alt="WhatsApp">
+    <h3>WhatsApp</h3>
+    <p>Nomor virtual aktif untuk verifikasi 1x OTP.</p>
+    <button>Beli Sekarang</button>
+  </div>
+
+  <div class="produk">
+    <img src="https://img.icons8.com/color/96/000000/telegram-app.png" alt="Telegram">
+    <h3>Telegram</h3>
+    <p>Siap digunakan untuk verifikasi Telegram.</p>
+    <button>Beli Sekarang</button>
+  </div>
+
+  <div class="produk">
+    <img src="https://img.icons8.com/color/96/000000/google-logo.png" alt="Google">
+    <h3>Google</h3>
+    <p>Nomor virtual untuk verifikasi akun Google.</p>
+    <button>Beli Sekarang</button>
+  </div>
+
+  <div class="produk">
+    <img src="https://img.icons8.com/color/96/000000/instagram-new.png" alt="Instagram">
+    <h3>Instagram</h3>
+    <p>Gunakan untuk aktivasi akun Instagram baru.</p>
+    <button>Beli Sekarang</button>
+  </div>
+
+</div>
+
   </section>  <footer>
-    <p>&copy; 2025 NokosMurah.my.id - All rights reserved.</p>
+    <p>&copy; 2025 NokosMurah. All rights reserved.</p>
   </footer>
 </body>
 </html>
