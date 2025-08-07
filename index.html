@@ -1,49 +1,45 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
+<!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nokos Murah</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Nokos Murah</h1>
-    <p>Jual Nomor Virtual WhatsApp, Telegram, dan lainnya</p>
-  </header>
-
-  <section id="produk">
-    <h2>Produk Kami</h2>
-    <div class="produk-list">
-      <div class="produk">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-        <h3>Nokos WhatsApp</h3>
-        <p>Nomor virtual aktif untuk verifikasi WhatsApp</p>
-        <button onclick="window.location.href='https://wa.me/6281234567890'">Beli Sekarang</button>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+</head><body>
+  <div class="page-wrapper"><!-- Modal Video -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <button id="close-video" type="button" class="button btn btn-default text-right" data-dismiss="modal">
+        <i class="icofont-close-line-circled"></i>
+      </button>
+      <div class="modal-body">
+        <div id="video-container" class="video-container">
+          <iframe id="youtubevideo" src="#" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
-      <div class="produk">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
-        <h3>Nokos Telegram</h3>
-        <p>Nomor siap verifikasi akun Telegram</p>
-        <button onclick="window.location.href='https://wa.me/6281234567890'">Beli Sekarang</button>
-      </div>
-      <div class="produk">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
-        <h3>Nokos Google</h3>
-        <p>Nomor verifikasi akun Google dan Gmail</p>
-        <button onclick="window.location.href='https://wa.me/6281234567890'">Beli Sekarang</button>
-      </div>
-      <div class="produk">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
-        <h3>Nokos Instagram</h3>
-        <p>Nomor virtual untuk akun IG baru</p>
-        <button onclick="window.location.href='https://wa.me/6281234567890'">Beli Sekarang</button>
-      </div>
+      <div class="modal-footer"></div>
     </div>
-  </section>
+  </div>
+</div>
 
-  <footer>
-    &copy; 2025 NokosMurah. All rights reserved.
-  </footer>
-</body>
-</html>
+<div class="purple_backdrop"></div>
+
+  </div>
+  <!-- Page-wrapper-End -->  <!-- Chat Widget -->  <script>
+    (function(d, t) {
+      var BASE_URL = "https://chat.virtusim.com";
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = BASE_URL + "/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g, s);
+      g.onload = function() {
+        window.chatwootSDK.run({
+          websiteToken: 'FdRa8BmKwKRghyG8zMFfEiC3',
+          baseUrl: BASE_URL
+        });
+      }
+    })(document, "script");
+  </script>  <!-- Scripts -->  <script src="js/jquery.js"></script>  <script src="js/owl.carousel.min.js"></script>  <script src="js/bootstrap.min.js"></script>  <script src="js/aos.js"></script>  <script src="js/main.js"></script>  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"96b8d2a90a475fcd","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.7.0","token":"0aa280924a794dcb89bc4fa21c4d0c28"}' crossorigin="anonymous"></script></body></html>
