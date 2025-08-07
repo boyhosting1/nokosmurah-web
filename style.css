@@ -1,48 +1,94 @@
-<!DOCTYPE html><html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nokos Murah - Nomor Virtual</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Nokos Murah</h1>
-    <p>Nomor Virtual OTP Harga Terjangkau</p>
-  </header>  <section id="produk">
-    <h2>Produk Nomor Virtual</h2>
-    <div class="produk-list"><div class="produk">
-    <img src="https://img.icons8.com/color/96/000000/whatsapp--v1.png" alt="WhatsApp">
-    <h3>WhatsApp</h3>
-    <p>Nomor virtual aktif untuk verifikasi 1x OTP.</p>
-    <button>Beli Sekarang</button>
-  </div>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
 
-  <div class="produk">
-    <img src="https://img.icons8.com/color/96/000000/telegram-app.png" alt="Telegram">
-    <h3>Telegram</h3>
-    <p>Siap digunakan untuk verifikasi Telegram.</p>
-    <button>Beli Sekarang</button>
-  </div>
+header {
+  background-color: #28a745;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
 
-  <div class="produk">
-    <img src="https://img.icons8.com/color/96/000000/google-logo.png" alt="Google">
-    <h3>Google</h3>
-    <p>Nomor virtual untuk verifikasi akun Google.</p>
-    <button>Beli Sekarang</button>
-  </div>
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
 
-  <div class="produk">
-    <img src="https://img.icons8.com/color/96/000000/instagram-new.png" alt="Instagram">
-    <h3>Instagram</h3>
-    <p>Gunakan untuk aktivasi akun Instagram baru.</p>
-    <button>Beli Sekarang</button>
-  </div>
+header p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
 
-</div>
+#produk {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
 
-  </section>  <footer>
-    <p>&copy; 2025 NokosMurah. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+#produk h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.produk-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.produk {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.produk:hover {
+  transform: scale(1.05);
+}
+
+.produk img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.produk h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.produk p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.produk button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.produk button:hover {
+  background-color: #218838;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
